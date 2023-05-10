@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8142930383840519811}
   - component: {fileID: 7542281011096919829}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,7 +91,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149211156532092719}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 32b922dd6467f334b8a703f53b1c3c91, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 5213620320972573772}
   - component: {fileID: 8347878610321600680}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -188,7 +188,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434329531522860893}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 32b922dd6467f334b8a703f53b1c3c91, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 8145331353703038225}
   - component: {fileID: 8515616935418023091}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,7 +285,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3314912706710034239}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 6b39c88821803cb4c8a3937b738dd744, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 1307242929613575031}
   - component: {fileID: 1208128653868066248}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -417,7 +417,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6956458159586483175}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 32b922dd6467f334b8a703f53b1c3c91, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2

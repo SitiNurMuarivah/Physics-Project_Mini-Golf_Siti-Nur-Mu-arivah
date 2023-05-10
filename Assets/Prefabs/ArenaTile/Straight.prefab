@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1991447999811759957}
   - component: {fileID: 4036044920897275571}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,7 +91,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524466219099825408}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 32b922dd6467f334b8a703f53b1c3c91, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 8707979566183948168}
   - component: {fileID: 9092868578193633188}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -222,7 +222,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636229615370153745}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 32b922dd6467f334b8a703f53b1c3c91, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 399526201507356219}
   - component: {fileID: 5818760454284388224}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -319,7 +319,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997523387234844213}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 6b39c88821803cb4c8a3937b738dd744, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2

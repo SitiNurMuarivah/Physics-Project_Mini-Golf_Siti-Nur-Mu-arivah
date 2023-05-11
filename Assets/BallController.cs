@@ -5,6 +5,7 @@ using Cinemachine;
 
 public class BallController : MonoBehaviour
 {
+    [SerializeField] Collider coll;
     [SerializeField] Rigidbody rb;
     [SerializeField] float force;
 
@@ -12,9 +13,14 @@ public class BallController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetMouseButtonDown(0))
         {
-            shoot = true;
+            var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out var hitInfo))
+            {
+                if(hitInfo.collider == coll)
+                    shoot = true;
+            }
         }
     }
 
@@ -26,6 +32,11 @@ public class BallController : MonoBehaviour
             Vector3 direction = Camera.main.transform.forward;
             direction.y = 0;
             rb.AddForce(direction * force, ForceMode.Impulse);
+        }
+
+        if (rb.velocity.sqrMagnitude < 0.01f && rb.velocity.sqrMagnitude > 0)
+        {
+            rb.velocity = Vector3.zero;
         }
     }
 

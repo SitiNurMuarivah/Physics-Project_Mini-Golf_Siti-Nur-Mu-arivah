@@ -51,7 +51,8 @@ public class PlayManager : MonoBehaviour
     {
         TeleportBall(lastBallPosition);
     }
-    public void TeleportBall(Vector2 targetPosition)
+
+    public void TeleportBall(Vector3 targetPosition)
     {
         var rb = ballController.GetComponent<Rigidbody>();
         rb.isKinematic = true;

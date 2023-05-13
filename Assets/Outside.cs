@@ -5,13 +5,14 @@ using UnityEngine.Events;
 
 public class Outside : MonoBehaviour
 {
-    public UnityEvent OnBallGoalEnter = new UnityEvent();
+    public UnityEvent OnBallEnter = new UnityEvent();
 
     private void OnCollisionEnter(Collision other)
     {
         if (other.transform.CompareTag("Ball"))
         {
-            OnBallGoalEnter.Invoke();
+            Debug.Log("OnBallEnter");
+            OnBallEnter.Invoke();
         }
     }
 }

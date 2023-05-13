@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Goal : MonoBehaviour
+public class Outside : MonoBehaviour
 {
     public UnityEvent OnBallGoalEnter = new UnityEvent();
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.CompareTag("Ball"))
+        if (other.transform.CompareTag("Ball"))
         {
             OnBallGoalEnter.Invoke();
         }
